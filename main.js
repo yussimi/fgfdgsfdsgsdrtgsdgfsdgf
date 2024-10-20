@@ -12,9 +12,9 @@ function initializeSkyEmu() {
     element: container,
     system: 'nds',
     bios: {
-      arm7: '/path/to/bios7.bin',
-      arm9: '/path/to/bios9.bin',
-      firmware: '/path/to/firmware.bin'
+      arm7: 'bios7.bin',
+      arm9: 'bios9.bin',
+      firmware: 'firmware.bin'
     },
     onReady: () => {
       console.log("SkyEmu is ready");
