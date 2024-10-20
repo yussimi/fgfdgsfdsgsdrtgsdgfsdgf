@@ -19,7 +19,7 @@ function initializeSkyEmu() {
     onReady: () => {
       console.log("SkyEmu is ready");
       // Load your ROM here
-      skyEmu.loadROM('/path/to/your-game.nds');
+      skyEmu.loadROM('prueba.nds');
     }
   }).then(instance => {
     skyEmu = instance;
